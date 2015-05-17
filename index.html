@@ -11,7 +11,14 @@ title: Home
     {% include _rfp.html %}
   </section>
   <section class='span4'>
-    {% include _upcoming_meeting.html %}
+    {% for post in site.posts limit:1 %}
+      <article>
+        <header>
+          <h2>{{ post.title }}</h2>
+        </header>
+        {{ post.content }}
+      </article>
+    {% endfor %}
   </section>
   <section class='span4'>
     <div class='well well-large'>
