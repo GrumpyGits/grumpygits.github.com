@@ -2,9 +2,11 @@
   <div class='navbar-inner'>
     <a class='brand' rel='home' href='http://grumpygits.github.io'>Grumpy Gits Singapore</a>
     <ul class='nav'>
+      {% if false %}
       <li class='divider-vertical'></li>
       <li{% if page.title == 'Meetings' %} class='active'{% endif %}><a href='/meetings'>Meetings</a></li>
       <li{% if page.title == 'Presentations' %} class='active'{% endif %}><a href='/presentations'>Presentations</a></li>
+      {% endif %}
       <li class='divider-vertical'></li>
       <li><a href="https://www.facebook.com/groups/sggrumpygits/"><span class="icon-facebook-sign"></span>Facebook</a></li>
       <li><a href="http://www.meetup.com/Grumpy-Gits-SG/"><span class='icon-sign-blank'></span>Meetup</a></li>
