@@ -5,6 +5,7 @@ tldr: Learning is better together! No coding experience needed
 ---
 
 
+
 ### No coding experience needed
 --- 
 
@@ -36,4 +37,13 @@ We'll begin with a story about getting started in open source, spend time on the
 
 *Food and refreshments will be provided.*
 
+### Sponsors
+---
+#### Venue
+<img src="/images/ida-labs-logo-hr.jpg" alt="IDA Labs" width="200px">
+
+#### Organisers
+[GrumpyGits Singapore](https://grumpygits.github.io)
+[<img src="/images/github-logo.png" alt="GitHub" width="200px">](https://github.com)
+[<img src="/images/rdrc-logo.png" alt="RedDotRubyConf" width="200px">](http://www.reddotrubyconf.com)
 
