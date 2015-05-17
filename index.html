@@ -10,7 +10,7 @@ title: Home
   <section class='span4'>
     {% include _rfp.html %}
   </section>
-  <section class='span4'>
+  <section class='span8'>
     {% for post in site.posts limit:1 %}
       <article>
         <header>
@@ -22,7 +22,7 @@ title: Home
   </section>
   <section class='span4'>
     <div class='well well-large'>
-      <h2>Recently added</h2>
+      <h3>Recent Posts</h3>
       <ul>
 {% for post in site.posts limit:7 %}
         <li>
