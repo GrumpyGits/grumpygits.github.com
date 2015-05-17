@@ -9,4 +9,4 @@ Please add your Git user group here so we can share resources and people can fin
 
 <a href="http://www.pdxgit.com">PDX Git Together (Portland, Oregon, USA)</a><br/>
 
-<a href="http://www.facebook.com/groups/sggrumpygits">Singapore Grumpy Gits</a><br/>
+<a href="http://www.facebook.com/groups/sggrumpygits">Grumpy Gits Singapore</a><br/>

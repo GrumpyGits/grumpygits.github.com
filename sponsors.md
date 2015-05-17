@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Grumpy Git Together Sponsors
+title: Grumpy Gits Sponsors
 ---
 
 # Sponsors
 
-Here are the various sponsors that make Grumpy Git Together possible, by donating venue space, food, drinks and other services.
+Here are the various sponsors that make Grumpy Gits possible, by donating venue space, food, drinks and other services.
 
 Thanks!
 
