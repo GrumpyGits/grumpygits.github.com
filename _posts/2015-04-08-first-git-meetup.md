@@ -1,4 +1,8 @@
-<h2>The first git together is on!</h2>
+---
+layout: article
+title: The first git together is on!
+tldr: It's Git's 10th anniversary, and we're having our first ever Git user meetup in Singapore! 
+---
 
 <p>
 	<a class="btn btn-primary" href="https://www.facebook.com/events/1599023443666373/">View on Facebook</a>
