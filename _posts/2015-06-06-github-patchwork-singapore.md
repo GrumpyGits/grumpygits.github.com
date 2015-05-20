@@ -40,6 +40,8 @@ We'll begin with a story about getting started in open source, spend time on the
 
 *Food and refreshments will be provided.*
 
+*Mentors, you'll receive an email a few days before the event with details about what to expect and the curriculum. We'll be teaching Git concepts and making a Pull Request using the GitHub Flow and Hello World tutorial guide.*
+
 ### Sponsors
 ---
 #### Venue
