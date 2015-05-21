@@ -7,9 +7,6 @@ title: Home
   <p class='lead'>The monthly user group that <strong><em>doesn't</em></strong> lose your data!</p>
 </div>
 <div class="row">
-  <section class='span4'>
-    {% include _rfp.html %}
-  </section>
   <section class='span8'>
     {% for post in site.posts limit:1 %}
       <article>
@@ -19,6 +16,9 @@ title: Home
         {{ post.content }}
       </article>
     {% endfor %}
+  </section>
+  <section class='span4'>
+    {% include _rfp.html %}
   </section>
   <section class='span4'>
     <div class='well well-large'>
