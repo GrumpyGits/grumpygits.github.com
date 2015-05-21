@@ -4,6 +4,8 @@ title: Github PatchWork Singapore - 6th June 2015
 tldr: Learning is better together! No coding experience needed
 ---
 
+![Github PatchWork Singapore @IDA Labs](/images/ida-labs-venue.jpg)
+
 <p>
     <a class="btn btn-primary" href="https://ti.to/github-events/patchwork-singapore">RSVP</a>
 </p>
