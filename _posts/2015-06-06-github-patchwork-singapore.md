@@ -6,11 +6,6 @@ tldr: Learning is better together! No coding experience needed
 
 ![Github PatchWork Singapore @IDA Labs](/images/ida-labs-venue.jpg)
 
-<p>
-    <a class="btn btn-primary" href="https://ti.to/github-events/patchwork-singapore">RSVP</a>
-</p>
-
-
 ### No coding experience needed
 --- 
 
@@ -21,6 +16,10 @@ tldr: Learning is better together! No coding experience needed
 Newcomers to Git and GitHub: you'll leave with a merged [pull request](https://help.github.com/articles/using-pull-requests/), a square on your [contributions graph](https://help.github.com/articles/viewing-contributions), and confidence to get more involved in the open source community.
 
 Mentors: if you've ever had a pull request merged, now is your chance to share the love and help someone else create magic.
+
+<p>
+    <a class="btn btn-primary" href="https://ti.to/github-events/patchwork-singapore">RSVP</a>
+</p>
 
 ### Learning is better together
 ---
