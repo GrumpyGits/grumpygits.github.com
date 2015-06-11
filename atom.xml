@@ -5,10 +5,10 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Grumpy Gits Singapore</title>
- <link href="http://grumpygits.github.io/atom.xml" rel="self"/>
- <link href="http://grumpygits.github.io/"/>
+ <link href="https://grumpygits.github.io/atom.xml" rel="self"/>
+ <link href="https://grumpygits.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://grumpygits.github.io</id>
+ <id>https://grumpygits.github.io</id>
  <author>
    <name>Grumpy Gits Singapore</name>
  </author>
@@ -17,9 +17,9 @@ layout: null
     {% if post.status != 'unpublished' %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://grumpygits.github.io{{ post.url }}"/>
+   <link href="https://grumpygits.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://grumpygits.github.io{{ post.id }}</id>
+   <id>https://grumpygits.github.io{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
     {% endif %}
