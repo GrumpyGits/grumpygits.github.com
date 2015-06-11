@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/GrumpyGits/grumpygits.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/GrumpyGits/grumpygits.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This is the code behind http://grumpygits.github.io (AKA http://grumpygits.github.io). Patches welcome :)
+This is the code behind http://grumpygits.github.io . Patches welcome :)
 
 http://grumpygits.github.io is hosted using [Github Pages][4] and powered by [Jekyll][1], [Twitter Bootstrap][2], and [Font Awesome][3].
 
