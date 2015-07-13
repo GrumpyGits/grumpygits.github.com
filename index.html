@@ -1,35 +1,51 @@
 ---
 layout: default
-title: Home
 ---
-<div class='site-banner'>
-  <h1>Grumpy Gits Singapore</h1>
-  <p class='lead'>The monthly user group that <strong><em>doesn't</em></strong> lose your data!</p>
-</div>
-<div class="row">
-  <section class='span8'>
-    {% for post in site.posts limit:1 %}
-      <article>
-        <header>
-          <h2>{{ post.title }}</h2>
-        </header>
-        {{ post.content }}
-      </article>
-    {% endfor %}
-  </section>
-  <section class='span4'>
-    {% include _rfp.html %}
-  </section>
-  <section class='span4'>
-    <div class='well well-large'>
-      <h3>Recent Posts</h3>
-      <ul>
-{% for post in site.posts limit:7 %}
-        <li>
-          <a href='{{ post.url }}'>{{ post.title }}</a>{% if post.tldr %}- {{ post.tldr }}{% endif %}
-        </li>
-{% endfor %}
-      </ul>
+
+<div class="panel-heading">Recent Posts</div>
+<div class="panel-body">
+  
+  <!-- Posts --> 
+  {% for post in paginator.posts %}
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+      <p>
+        {{ post.excerpt }}
+      </p>
+      {% if forloop.last != true %}
+        <hr>
+      {% endif %}
+  {% endfor %}
+
+  <!-- Pagination -->
+  {% if paginator.total_pages > 1 %}
+    <div class="pagination text-center">
+
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+      {% else %}
+        <span>&laquo;</span>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          {{ page }}
+        {% elsif page == 1 %}
+          <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+      {% else %}
+        <span>&raquo;</span>
+      {% endif %}
+
     </div>
-  </section>
+  {% endif %}
+
 </div>
+
+
