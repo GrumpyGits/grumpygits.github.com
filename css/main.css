@@ -1,0 +1,11 @@
+body {
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+hr { border-color: #ddd; }
+footer a { padding: 0 5px; }
+img { max-width: 100%; }
+
+.panel-body h1, .panel-body h2 { margin-top: 10px; }
+.pagination { width: 100%; }
