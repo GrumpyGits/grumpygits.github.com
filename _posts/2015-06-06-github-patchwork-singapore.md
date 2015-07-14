@@ -48,4 +48,4 @@ Once registered, you'll receive an email before the event with details about the
 
 **Organisers**
 
-[GrumpyGits Singapore](https://grumpygits.github.io)
+[Grumpy Gits Singapore](https://grumpygits.github.io)
