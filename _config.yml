@@ -1,7 +1,10 @@
-markdown: rdiscount
-highlighter: pygments
-exclude:
-  - config.ru
-  - Gemfile
-  - Gemfile.lock
-  - Procfile
+# Site settings
+title: Grumpy Gits SG
+baseurl: ""
+url: "http://grumpygits.github.io"
+paginate: 5
+
+# Build settings
+markdown: kramdown
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]

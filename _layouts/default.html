@@ -1,11 +1,72 @@
-<!DOCTYPE html>
-<html lang='en'>
-  {% include _head.html %}
+<html>
+
+  {% include head.html %}
+
   <body>
-    <section class='container'>
-      {% include _navbar.html %}
-      {{ content }}
-      {% include _footer.html %}
-    </section>
+
+    <!-- Content -->
+    <div class="container">
+      
+      {% include navbar.html %}
+
+      <div class="row">
+        
+        <div class="col-xs-12 col-md-8">
+          <div class="panel panel-default">
+            {{ content }}
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">Upcoming Meetups</div>
+            <div class="panel-body" id="upcoming-meetups">
+            Loading... 
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Past Meetups</div>
+            <div class="panel-body" id="past-meetups">
+            Loading... 
+            </div>
+          </div>
+          <div class="panel panel-warning">
+            <div class="panel-heading">Request for Presenters</div>
+            <div class="panel-body">
+            <p>
+              <strong>Would you like to speak at an upcoming meetup?</strong>
+              We're looking for speakers on - 
+              <ul>
+                <li>How you got over the initial Git learning curve</li>
+                <li>Using Git to track data other than code</li>
+                <li>Your favorite but lesser-known Git utility</li>
+                <li>When to modify history for fun and profit</li>
+                <li>Your newest crazy idea using Git</li>
+                <li>How to <code>stash</code> effectively</li>
+                <li>Demystifying <code>git rebase</code></li>
+                <li>Case studies of unique repos, e.g. the Linux kernel</li>
+                <li>Interesting Git workflows</li>
+                <li>How your community uses Git</li>
+                <li>Git CSI (archaeology/investigation)</li>
+                <li>GitHub alternatives</li>
+                <li>Git hooks</li>
+              </ul>
+            </p>
+            <p>
+              If you're interested in speaking, please get in touch on <a href="https://gitter.im/GrumpyGits/grumpygits.github.io">Gitter</a> or <a href="https://www.facebook.com/groups/sggrumpygits">Facebook</a> chat! 
+            </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+    
+    {% include scripts.html %}
+
   </body>
+
 </html>
