@@ -2,22 +2,50 @@
 layout: default
 ---
 
-<div class="home">
+<div class="panel-heading">Recent Posts</div>
+<div class="panel-body">
+  
+  <!-- Posts --> 
+  {% for post in paginator.posts %}
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+      <p>
+        {{ post.excerpt }}
+      </p>
+      {% if forloop.last != true %}
+        <hr>
+      {% endif %}
+  {% endfor %}
 
-  <h1 class="page-heading">Posts</h1>
+  <!-- Pagination -->
+  {% if paginator.total_pages > 1 %}
+    <div class="pagination text-center">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+      {% else %}
+        <span>&laquo;</span>
+      {% endif %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          {{ page }}
+        {% elsif page == 1 %}
+          <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+      {% else %}
+        <span>&raquo;</span>
+      {% endif %}
+
+    </div>
+  {% endif %}
 
 </div>
+
+
