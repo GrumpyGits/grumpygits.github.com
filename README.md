@@ -1,4 +1,6 @@
-# Grumpy Gits Singapore [![Join the chat at https://gitter.im/GrumpyGits/grumpygits.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/GrumpyGits/grumpygits.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Grumpy Gits Singapore 
+
+[![Join the chat at https://gitter.im/GrumpyGits/grumpygits.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/GrumpyGits/grumpygits.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This is the code behind [grumpygits.github.io][1], pull requests are welcome! :)
 
