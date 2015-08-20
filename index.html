@@ -10,7 +10,7 @@ layout: default
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
       <p>
-        {{ post.excerpt }}
+        {{ post.content }}
       </p>
       {% if forloop.last != true %}
         <hr>
