@@ -3,8 +3,6 @@ layout: page
 title: Code of Conduct
 ---
 
-### Code of Conduct
-
 Grumpy Gits Singapore is dedicated to providing a respectful, harassment-free community for everyone. We do not tolerate harassment or bullying of any community member in any form. This does not only extend to members to local Git communities, but to anyone who chooses to become involved in the larger community of users, developers and integrators through events or interactions.
 
 Harassment includes offensive verbal/electronic comments related to personal characteristics or choices, sexual images or comments in public or online spaces, deliberate intimidation, bullying, stalking, following, harassing photography or recording, sustained disruption of talks, IRC chats, electronic meetings, physical meetings or other events, inappropriate physical contact, or unwelcome sexual attention. Participants asked to stop any harassing or bullying behavior are expected to comply immediately.
