@@ -49,3 +49,11 @@ Once registered, you'll receive an email before the event with details about the
 **Organisers**
 
 [Grumpy Gits Singapore](https://grumpygits.github.io)
+
+## Video
+
+- [Start of event and Donal's sharing](https://youtu.be/ySS4S9zDN9w?t=27m50s)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ySS4S9zDN9w" frameborder="0" allowfullscreen></iframe>
+
+- [Why You Should Contribute to Open Source](https://www.youtube.com/watch?v=IAxlSpawPYQ&list=PLECEw2eFfW7hYMucZmsrryV_9nIc485P1&index=1) - [Björn Andersson](https://github.com/gaqzi)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IAxlSpawPYQ?list=PLECEw2eFfW7hYMucZmsrryV_9nIc485P1" frameborder="0" allowfullscreen></iframe>
