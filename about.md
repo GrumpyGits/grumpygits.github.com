@@ -14,3 +14,4 @@ We are Gits.
 [Valentine](https://github.com/valentine)
 
 ![Grumpy Gits](/images/gits.jpg)
+![Grumpy Gits](/images/grumpy_gits_logo.png)
