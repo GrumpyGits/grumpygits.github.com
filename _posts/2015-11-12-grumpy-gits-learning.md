@@ -9,9 +9,19 @@ Advancing git literacy through talks and workshops. Great for beginners, even be
 
 ## Learning is better together
 
-We will be on hand to walk you through the [Hello World](https://guides.github.com/activities/hello-world/) tutorial, answer your questions, help you create your first open source project and achieve your first merged pull request.
+- Intro to Grumpy Gits
+- **"Life's better with Git hooks"** - Deepank Vora
 
-We'll begin with a story about getting started in open source, spend time on the tutorial in small groups, and then close things out with a lightning talk.
+    Git can be tailored to trigger custom scripts at key points in the
+    development lifecycle. In this talk, we'll learn how we can make our
+    life better with Git hooks.
+
+- Git Exercises
+- **"Git Config boilerplate"** - ChernJie Lim
+- Git Exercises
+- Open Space
+
+    Share your git experiences, ask questions, talk about Git
 
 ## Details
 
