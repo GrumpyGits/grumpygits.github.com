@@ -17,7 +17,7 @@ Advancing git literacy through talks and workshops. Great for beginners, even be
     life better with Git hooks.
 
 - Git Exercises
-- **"Git Config boilerplate"** - ChernJie Lim
+- **"Git Config boilerplate"** - ChernJie Lim https://github.com/chernjie/gitconfig
 - Git Exercises
 - Open Space
 
