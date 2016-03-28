@@ -5,6 +5,7 @@ url: "http://grumpygits.github.io"
 paginate: 5
 
 # Build settings
+gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
