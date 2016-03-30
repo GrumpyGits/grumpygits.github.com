@@ -3,6 +3,7 @@ title: Grumpy Gits SG
 baseurl: ""
 url: "http://grumpygits.github.io"
 paginate: 5
+future: true
 
 # Build settings
 gems: [jekyll-paginate]
