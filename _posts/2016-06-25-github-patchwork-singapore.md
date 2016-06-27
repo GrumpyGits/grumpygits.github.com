@@ -3,6 +3,8 @@ layout: post
 title: GitHub Patchwork Singapore
 ---
 
+![Patchwork, Githubbers and Mentors](/images/2016-06-25-github-patchwork-singapore.jpg)
+
 Join us as we host this Patchwork with our good friends at [GitHub](https://github.com/) for a morning of hands-on hacking and learning about Git and GitHub.
 
 A host of GitHubbers, as well as local community mentors, will be on hand to walk you through your choice of learning modules:
