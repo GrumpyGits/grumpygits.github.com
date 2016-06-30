@@ -35,5 +35,5 @@ Details:
 
 **Photos And Videos**
 
-[Pretty pictures](https://www.facebook.com/events/1544999129139708/permalink/1550523608587260/)!
-<a class="glyphicon glyphicon-facetime-video" href="https://engineers.sg/v/839"></a> [Joshua](https://github.com/zz85) share his experience contributing to [three.js](http://threejs.org/) ([github](https://github.com/mrdoob/three.js/))
+* [Pretty pictures](https://www.facebook.com/events/1544999129139708/permalink/1550523608587260/)!
+* <a class="glyphicon glyphicon-facetime-video" href="https://engineers.sg/v/839"></a> [Joshua](https://github.com/zz85) share his experience contributing to [three.js](http://threejs.org/) ([github](https://github.com/mrdoob/three.js/))
