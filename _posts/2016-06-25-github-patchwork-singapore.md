@@ -25,7 +25,7 @@ Details:
 
 * __For:__ Git and GitHub beginners
 * __When?__ June 25, 9:00am-12:00pm
-* __Where?__ [Impact Hub Singapore](http://singapore.impacthub.net/space), [128 Prinsep Street #01-01, Singapore 188655](https://goo.gl/maps/F99jMjxdCAz) (The Garage Room)
+* __Where?__ [Impact Hub Singapore](https://singapore.impacthub.net/space), [128 Prinsep Street #01-01, Singapore 188655](https://goo.gl/maps/F99jMjxdCAz) (The Garage Room)
 
 <a class="btn btn-primary" href="https://ti.to/github-events/patchwork-singapore-2016/">RSVP</a>
 

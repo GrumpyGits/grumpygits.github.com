@@ -16,9 +16,9 @@ If you would like to contribute to this repo or add a future Grumpy Gits Singapo
 
 See [LICENSE][6].
 
-[1]: http://grumpygits.github.io/
+[1]: https://grumpygits.github.io/
 [2]: https://pages.github.com/
-[3]: http://jekyllrb.com/
-[4]: http://fezvrasta.github.io/bootstrap-material-design/
-[5]: http://fontawesome.io/
+[3]: https://jekyllrb.com/
+[4]: https://fezvrasta.github.io/bootstrap-material-design/
+[5]: https://fontawesome.io/
 [6]: https://github.com/GrumpyGits/grumpygits.github.io/blob/master/LICENSE

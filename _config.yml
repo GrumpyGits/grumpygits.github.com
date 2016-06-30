@@ -1,7 +1,7 @@
 # Site settings
 title: Grumpy Gits SG
 baseurl: ""
-url: "http://grumpygits.github.io"
+url: "https://grumpygits.github.io"
 paginate: 5
 future: true
 
