@@ -32,3 +32,7 @@ Details:
 **Organisers**
 
 [Grumpy Gits Singapore](https://grumpygits.github.io)
+
+**Photos**
+
+[Pretty pictures](https://www.facebook.com/events/1544999129139708/permalink/1550523608587260/)!
